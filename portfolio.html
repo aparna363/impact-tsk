@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #fff;
+}
+
+header {
+    background-color: #080511;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    background-color: #1f1f1f;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #531282;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#home .content {
+    max-width: 500px;
+}
+
+#home .image img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.Interests {
+    margin: 2rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 500px;
+}
+
+
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Interests">Interests</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="content">
+            <h2>Hello, I am Aparna Prasad</h2>
+            <h3>MCA Student</h3>
+            
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRutN6d3gVtFKngwPjq2ccOsNiS6kUNwLctpLEvBufhO1bQXJ8JIF_qxQqZkLZ-32tjCZ0&usqp=CAU" alt="Lucas Franklin">
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi, I am a dedicated student with a strong passion for web development, web designing, and cybersecurity </p>
+        <a href="#" class="btn">Read More</a>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Interests</h2>
+        <div class="service">
+            <h3>Web Development</h3>
+            <p>Creating responsive and high-performance websites.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="service">
+            <h3>Web Designing</h3>
+            <p>Designing visually appealing graphics for web and print.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        
+    </section>
+
+    
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>APARNA PRASAD<br>
+       email: aparnaprasad363@gmail.com<br>
+      Phone:9605532456</p>
+    </section>
+
+
+</body>
+</html>
